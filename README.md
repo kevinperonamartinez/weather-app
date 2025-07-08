@@ -1,12 +1,38 @@
-# React + Vite
+# WeatherApp React 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web construida con React que permite consultar el clima actual de cualquier ciudad usando la API de OpenWeather.  
+Ideal para aprender integración con APIs externas, manejo de estado con hooks y diseño sencillo pero atractivo.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo en vivo  
+https://weather-app-pink-xi.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Características
+
+- Búsqueda de ciudades por nombre
+- Muestra temperatura, sensación térmica, humedad, viento y descripción del clima
+- Diseño moderno y responsivo con CSS puro y gradientes
+- Manejo de errores si la ciudad no existe o la API falla
+- Uso de hooks (`useState`) para gestionar el estado en React
+
+---
+
+## Tecnologías usadas
+
+- React (Functional Components y Hooks)
+- Fetch API para llamadas HTTP
+- CSS con diseño limpio y animaciones sencillas
+- API externa: [OpenWeather](https://openweathermap.org/api)
+
+---
+
+## Instalación y ejecución local
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/kevinperonamartinez/weather-app.git
+   cd weather-app
